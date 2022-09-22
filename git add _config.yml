@@ -1,0 +1,33 @@
+[1mdiff --git a/_config.yml b/_config.yml[m
+[1mindex 1dc605c..00102dd 100644[m
+[1m--- a/_config.yml[m
+[1m+++ b/_config.yml[m
+[36m@@ -7,13 +7,13 @@[m
+ [m
+ # Site Settings[m
+ locale                   : "en-US"[m
+[31m-title                    : "Your Name / Site Title"[m
+[32m+[m[32mtitle                    : "Mingdian's website"[m
+ title_separator          : "-"[m
+ name                     : &name "Your Name"[m
+ description              : &description "personal description"[m
+[31m-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"[m
+[32m+[m[32murl                      : https://mingdianliu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"[m
+ baseurl                  : "" # the subpath of your site, e.g. "/blog"[m
+[31m-repository               : "academicpages/academicpages.github.io"[m
+[32m+[m[32mrepository               : "mingdianliu/mingdianliu.github.io"[m
+ teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"[m
+ breadcrumbs              : false # true, false (default)[m
+ words_per_minute         : 160[m
+[36m@@ -80,9 +80,9 @@[m [manalytics:[m
+ [m
+ # Site Author[m
+ author:[m
+[31m-  name             : "Your Sidebar Name"[m
+[32m+[m[32m  name             : "Mingdian Liu"[m
+   avatar           : "profile.png"[m
+[31m-  bio              : "Your biography for the left-hand sidebar"[m
+[32m+[m[32m  bio              : "Mingdian is a PhD student at Iowa State University."[m
+   location         : "Location"[m
+   employer         :[m
+   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"[m

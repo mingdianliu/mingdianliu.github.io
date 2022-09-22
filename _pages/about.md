@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-About Me
-======
+
 Mingdian Liu is a Ph.D. student in Electrical Engineering at Iowa State University. He is also a Master student in Computer 
 Science and minor in Statistics. He is a student member in [Dependable Data Driven Discovery (D4) Institute](https://tads.research.iastate.edu/people/mingdian-liu) and [Center for Nondestructive Evaluation (CNDE)](https://www.cnde.iastate.edu/mingdian-liu/) at ISU.
 

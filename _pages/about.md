@@ -1,3 +1,13 @@
+---
+permalink: /
+title: "About me"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 About Me
 ======
 Mingdian Liu is a Ph.D. student in Electrical Engineering at Iowa State University. He is also a Master student in Computer 

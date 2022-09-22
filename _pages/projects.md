@@ -22,12 +22,15 @@ latent space variables, thus allowing us to generate realistic dance motions and
 by using simple text/voice commands. Our model produces realistic dance predictions. Extensive experiments show that our 
 proposed method can enable both algorithmic and personalized dance motion generation from music.
 
+<p float="left" align="center">
+<img src="{{ site.baseurl }}/files/final_demo.gif" width="500" /> 
+<figcaption align="center">
+Visualization of the generated dance conditioned on music input and text guidance).
 
-[//]: # (<iframe src="https://drive.google.com/file/d/1EC8BnjJMon-vqy-UhLKk9sf_oukZzEbP/preview"></iframe>)
-<iframe src="https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing"></iframe>
+</figcaption>
+</p>
 
-
-<iframe src="https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/preview"></iframe>
+[//]: # (<iframe src="https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/preview"></iframe>)
 
 [//]: # (<video autoplay="autoplay" loop="loop" width="768" height="512">)
 

@@ -53,7 +53,7 @@ check the demo here.
 
 
 
-## Indoor Activity Recognition with mmWave Radar Sensor for Aging in Place [[demo]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)
+## Indoor Activity Recognition with mmWave Radar Sensor for Aging in Place [[demo]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)[[code]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)
 <b> Computer Science master thesis </b>
 
 Nowadays, world population aging, which requires heavy investment of time and
@@ -84,26 +84,20 @@ monitoring for elderly people and reduce labour for caregivers.
 </p>
 
 
-
-[//]: # (<iframe src="https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/preview"></iframe>)
-
-[//]: # (<video autoplay="autoplay" loop="loop" width="768" height="512">)
-
-[//]: # (  <source src="/assets/images/lorenz.mp4" type="video/mp4">)
-
-[//]: # (  <source src="/assets/images/lorenz.webm" type="video/webm">)
-
-[//]: # (</video>)
+## Intelligient Antenna Design using Generative Adversarial Network [[code]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)
 
 
-[//]: # (<p float="left" align="center">)
+Featured by low conduction loss and high radiation efficiency, dielectric resonator antennas (DRA) have been considered 
+as a promising antenna type for the applications of 5G technologies at 60 GHz band. To date, the design of the DRA 
+mainly depends on the intuitive reasoning and trial-and-error process, which is time-consuming and resource-demanding. 
+To address this challenge, a generative adversarial network (GAN)-based approach is developed to automate the design of 
+DRA structures. The GAN model incorporates a simulator and generator for the DRA modeling and DRA structure design, 
+respectively. A training dataset of the pattern-annotation pairs of geometric shapes and S11 parameter was generated to 
+train the GAN model. During the training process, the distribution of this dataset was captured by the end-to-end GAN 
+model. The trained GAN model is capable of predicting DRA performance as well as generating new DRA structures according
+to a given S11 spectrum.
 
-[//]: # (<img src="{{ site.baseurl }}/images/ADELE.png" width="500" /> )
 
-[//]: # (<figcaption align="center">)
-
-[//]: # (Visualization of the segmentation results of the baseline method SEAM and the baseline combined with the proposed ADaptive Early-Learning corrEction &#40;ADELE&#41;.)
-
-[//]: # (</figcaption>)
-
-[//]: # (</p>)
+<p float="left" align="center">
+<img src="{{ site.baseurl }}/files/GAN_for_antenna_design.tif" width="500" />
+</p>

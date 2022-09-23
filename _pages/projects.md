@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-## Text-guided music to dance generation <b><span style="color:blue">[[demo]](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing)</span></b>
+## Text-guided music to dance generation [[demo]](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing)
 <b> 2022 Summer Intern at Alexa AI </b>
 
 Generating 3D dances from music is an emerging research topic that can enable delightful use cases such as dance trainer, 
@@ -20,8 +20,7 @@ alternative approach where we project dance movements and corresponding text des
 A dance motion codebook conditioned on music features (genre, audio spectogram, beats per minute) is used to predict these 
 latent space variables, thus allowing us to generate realistic dance motions and empower our customers to edit dance movements 
 by using simple text/voice commands. Our model produces realistic dance predictions. Extensive experiments show that our 
-proposed method can enable both algorithmic and personalized dance motion generation from music. You can check the demo with music
-[here](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing).
+proposed method can enable both algorithmic and personalized dance motion generation from music.
 
 <p float="left" align="center">
 <img src="{{ site.baseurl }}/files/music_to_dance_model_1.png" width="500" />
@@ -36,7 +35,7 @@ Visualization of the generated dance conditioned on music input and text guidanc
 </figcaption>
 </p>
 
-## Smart watch-based hand gesture reognition model for AR glass
+## Smart watch-based hand gesture reognition model for AR glass <b><span style="color:red">[[demo]](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing)</span></b>
 <b> 2021 Summer Intern at OPPO US Research Center </b>
 
 Augumented reality (AR) glasses are the promising commerical products as the enterance to Metaverse. However, the common 
@@ -54,8 +53,7 @@ check the demo here.
 
 
 
-
-## Indoor Activity Recognition with mmWave Radar Sensor for Aging in Place
+## Indoor Activity Recognition with mmWave Radar Sensor for Aging in Place [[demo]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)
 <b> Computer Science master thesis </b>
 
 Nowadays, world population aging, which requires heavy investment of time and

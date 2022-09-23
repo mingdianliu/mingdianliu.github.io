@@ -53,7 +53,7 @@ check the demo here.
 
 
 
-## Indoor Activity Recognition with mmWave Radar Sensor for Aging in Place [[project homepage]](https://smarthomelab.github.io/Indoor-Activity-Recognition-with-mmWave-Radar-Sensor-Page/) [[demo]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)[[code]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)
+## Indoor Activity Recognition with mmWave Radar Sensor for Aging in Place [[project homepage]](https://smarthomelab.github.io/Indoor-Activity-Recognition-with-mmWave-Radar-Sensor-Page/) [[demo]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing) [[presentation]](https://youtu.be/om-5EhamHw8) [[code]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)
 <b> Computer Science master thesis </b>
 
 Nowadays, world population aging, which requires heavy investment of time and

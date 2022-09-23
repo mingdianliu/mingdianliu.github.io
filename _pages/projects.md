@@ -83,7 +83,6 @@ monitoring for elderly people and reduce labour for caregivers.
 <img src="{{ site.baseurl }}/files/indoor_activities_recognition_2.png" width="500" />
 </p>
 
-
 ## Intelligient Antenna Design using Generative Adversarial Network [[code]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)
 
 

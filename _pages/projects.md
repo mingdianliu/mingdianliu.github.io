@@ -20,7 +20,8 @@ alternative approach where we project dance movements and corresponding text des
 A dance motion codebook conditioned on music features (genre, audio spectogram, beats per minute) is used to predict these 
 latent space variables, thus allowing us to generate realistic dance motions and empower our customers to edit dance movements 
 by using simple text/voice commands. Our model produces realistic dance predictions. Extensive experiments show that our 
-proposed method can enable both algorithmic and personalized dance motion generation from music.
+proposed method can enable both algorithmic and personalized dance motion generation from music. You can check the demo with music
+[here](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing).
 
 <p float="left" align="center">
 <img src="{{ site.baseurl }}/files/music_to_dance_model_1.png" width="500" />
@@ -35,8 +36,7 @@ Visualization of the generated dance conditioned on music input and text guidanc
 </figcaption>
 </p>
 
-You can check the video with music
-[here](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing).
+
 
 
 
@@ -44,17 +44,9 @@ You can check the video with music
 ## Smart watch-based hand gesture reognition model for AR glass
 <b> 2021 Summer Intern at OPPO US Research Center </b>
 
-Generating 3D dances from music is an emerging research topic that can enable delightful use cases such as dance trainer, 
-dance animator for avatars, etc. The generated dance motion should conform to constraints of human body mechanics such as 
-not hyperextend elbows, and have realistic movements that a human could perform. Previous works approaches use techniques 
-such as Full-Attention Transformer, add physics-based constraints and leverage VQ-VAE for feature extraction and fusion to 
-generate diverse dance movements. However, these methods do not generalize well to new music. Further, these dance 
-motions cannot be easily edited by customers by saying simple text commands such as “Move your right arm up”. We propose an 
-alternative approach where we project dance movements and corresponding text descriptions of motion to a common latent space. 
-A dance motion codebook conditioned on music features (genre, audio spectogram, beats per minute) is used to predict these 
-latent space variables, thus allowing us to generate realistic dance motions and empower our customers to edit dance movements 
-by using simple text/voice commands. Our model produces realistic dance predictions. Extensive experiments show that our 
-proposed method can enable both algorithmic and personalized dance motion generation from music.
+AR glass is a promising commerical product as the enterance to Metaverse. However, the common user interface for AR glass
+is the vision-based in-view hand gesture recognition which can only capture the gestures in the view of camera. This limit
+
 
 <p float="left" align="center">
 <img src="{{ site.baseurl }}/files/music_to_dance_model_1.png" width="500" />

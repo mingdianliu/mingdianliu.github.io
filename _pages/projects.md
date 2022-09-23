@@ -100,4 +100,11 @@ to a given S11 spectrum.
 
 <p float="left" align="center">
 <img src="{{ site.baseurl }}/files/GAN_for_antenna_design.png" width="500" />
+<figcaption align="center">
+GAN model architecture developed to design DRA patterns with a given S11 spectrum. (a) GAN model consising of generator,
+simulator, and critic networks.   The inputs of the generator network (b) include the training S11 data and Gaussian 
+noise. {describe the blocks in the figure} The generator output, represeting the calculated DRA pattern, is used as the 
+inputs of the simulator and critic networks. The simulator and circtic networks consist of the ConvNet, BN and ResNet.
+</figcaption>
 </p>
+

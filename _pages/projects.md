@@ -23,6 +23,12 @@ by using simple text/voice commands. Our model produces realistic dance predicti
 proposed method can enable both algorithmic and personalized dance motion generation from music.
 
 <p float="left" align="center">
+<img src="{{ site.baseurl }}/files/music_to_dance_model_1.png" width="500" />
+</p>
+<p float="left" align="center">
+<img src="{{ site.baseurl }}/files/music_to_dance_model_2.png" width="500" />
+</p>
+<p float="left" align="center">
 <img src="{{ site.baseurl }}/files/final_demo.gif" width="500" /> 
 <figcaption align="center">
 Visualization of the generated dance conditioned on music input and text guidance).

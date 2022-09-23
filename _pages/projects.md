@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-## Text-guided music to dance generation
+## Text-guided music to dance generation <b><span style="color:blue">[[demo]](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing)</span></b>
 <b> 2022 Summer Intern at Alexa AI </b>
 
 Generating 3D dances from music is an emerging research topic that can enable delightful use cases such as dance trainer, 

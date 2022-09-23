@@ -31,10 +31,13 @@ proposed method can enable both algorithmic and personalized dance motion genera
 <p float="left" align="center">
 <img src="{{ site.baseurl }}/files/final_demo.gif" width="500" /> 
 <figcaption align="center">
-Visualization of the generated dance conditioned on music input and text guidance).
-
+Visualization of the generated dance conditioned on music input and text guidance. You can check the video 
+[here](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing).
 </figcaption>
 </p>
+
+You can check the video 
+[here](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing).
 
 [//]: # (<iframe src="https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/preview"></iframe>)
 

@@ -99,5 +99,5 @@ to a given S11 spectrum.
 
 
 <p float="left" align="center">
-<img src="{{ site.baseurl }}/files/GAN_for_antenna_design.tif" width="500" />
+<img src="{{ site.baseurl }}/files/GAN_for_antenna_design.png" width="500" />
 </p>

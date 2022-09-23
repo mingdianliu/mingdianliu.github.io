@@ -36,30 +36,22 @@ Visualization of the generated dance conditioned on music input and text guidanc
 </figcaption>
 </p>
 
-
-
-
-
-
 ## Smart watch-based hand gesture reognition model for AR glass
 <b> 2021 Summer Intern at OPPO US Research Center </b>
 
-AR glass is a promising commerical product as the enterance to Metaverse. However, the common user interface for AR glass
-is the vision-based in-view hand gesture recognition which can only capture the gestures in the view of camera. This limit
+Augumented reality (AR) glasses are the promising commerical products as the enterance to Metaverse. However, the common 
+user interface (UI) for AR glass is the vision-based hand gesture recognition which can only capture the gestures in the 
+view of camera. This limit the usage of AR glass. Here, we proposed a smart watch-based hand gesture recognition system 
+which takes the data from Inertial Measurement Unit (IMU) sensor and Photoplethysmography (PPG) sensor as input and 
+predicts user's hand gesture in real time. A modified MobileNet deep learning model was trained on 0.4 million data 
+collected from various users. The well-trained model has averaged 96% recall and 94% precision for each type of gesture.
+By combining handcrafted signal features into the model, we reduced 35% power consumption over existing methods. You can
+check the demo here.
 
+<p float="left" align="center">
+<img src="{{ site.baseurl }}/files/hand_gesture_recognition_table.png" width="500" />
+</p>
 
-<p float="left" align="center">
-<img src="{{ site.baseurl }}/files/music_to_dance_model_1.png" width="500" />
-</p>
-<p float="left" align="center">
-<img src="{{ site.baseurl }}/files/music_to_dance_model_2.png" width="500" />
-</p>
-<p float="left" align="center">
-<img src="{{ site.baseurl }}/files/final_demo.gif" width="500" /> 
-<figcaption align="center">
-Visualization of the generated dance conditioned on music input and text guidance.
-</figcaption>
-</p>
 
 
 

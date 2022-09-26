@@ -35,7 +35,7 @@ Visualization of the generated dance conditioned on music input and text guidanc
 </figcaption>
 </p>
 
-## Smart watch-based hand gesture reognition model for AR glass <b><span style="color:red">[[demo]](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing)</span></b>
+## Smart watch-based hand gesture reognition model for AR glasses <b><span style="color:red">[[demo]](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing)</span></b>
 <b> 2021 Summer Intern at OPPO US Research Center </b>
 
 Augumented reality (AR) glasses are the promising commerical products as the enterance to Metaverse. However, the common 
@@ -83,7 +83,7 @@ monitoring for elderly people and reduce labour for caregivers.
 <img src="{{ site.baseurl }}/files/indoor_activities_recognition_2.png" width="500" />
 </p>
 
-## Intelligient Antenna Design using Generative Adversarial Network [[code]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)
+## Intelligent Antenna Design using Generative Adversarial Network [[code]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)
 
 
 Featured by low conduction loss and high radiation efficiency, dielectric resonator antennas (DRA) have been considered 

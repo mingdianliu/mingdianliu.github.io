@@ -35,7 +35,7 @@ Visualization of the generated dance conditioned on music input and text guidanc
 </figcaption>
 </p>
 
-## Smart watch-based hand gesture reognition model for AR glasses <b><span style="color:red">[[demo]](https://drive.google.com/file/d/1uRkPxgTAInu8Pk81MsnR0pr4TQTiUaLm/view?usp=sharing)</span></b>
+## Smart watch-based hand gesture reognition model for AR glasses <b><span style="color:red">[[demo]](https://drive.google.com/drive/folders/1UklKZVgKYQrnBLPTODIE5EwHpESQsKLT?usp=share_link)</span></b>
 <b> 2021 Summer Intern at OPPO US Research Center </b>
 
 Augumented reality (AR) glasses are the promising commerical products as the enterance to Metaverse. However, the common 

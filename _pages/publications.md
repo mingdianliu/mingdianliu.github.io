@@ -11,7 +11,7 @@ author_profile: true
 Jingjing Qian, Qinming Zhang, <b>Mingdian Liu</b>, Yixuan Wang, Meng Lu
 <i>Biosensors and Bioelectronics</i>.
 
-<b>[Generative Adversarial Network-Based Design of Dielectric Resonator Antenna for mmWave 5G Applications](https://ieeexplore.ieee.org/abstract/document/9704678)</b><br>
+<b>[Generative Adversarial Network-based design of dielectric resonator antenna for mmWave 5G applications](https://ieeexplore.ieee.org/abstract/document/9704678)</b><br>
 <b>Mingdian Liu</b>, Hui Zhang, Meng Lu, Jiming Song
 <i>2021 IEEE International Symposium on Antennas and Propagation and USNC-URSI Radio Science Meeting (APS/URSI)</i>.
 

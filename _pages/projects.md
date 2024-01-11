@@ -7,6 +7,36 @@ author_profile: true
 
 {% include base_path %}
 
+## T2M-X: Learning Expressive Text-to-Motion Generation from Partially Annotated Data [[paper]](https://drive.google.com/file/d/1AljEcnaItZXaGAjKdGY_V9Eyi2PM6V-e/view?usp=sharing)[[appendix]](https://drive.google.com/file/d/1d5-iMsslwIhRyMCRekdlssYBF5NEqnWl/view?usp=sharing)[[demo]](https://drive.google.com/file/d/12cWo50pgp_Df5zkKRzdX9Yd3-nh7EsmP/view?usp=sharing)
+<b> 2023 Intern at Sanp Research </b>
+
+The generation of humanoid animation from text prompts can have profound impact on animation production and AR/VR 
+experiences. However, existing methods only generate body motion data, excluding facial expressions and hand movements. 
+This limitation, primarily due to a lack of comprehensive whole-body motion dataset, inhibits their readiness for 
+production use. Recent attempts to create such a dataset have resulted in either motion inconsistency among different 
+body parts in the artificially augmented data or lower quality in the data extracted from RGB videos. In this work, we 
+propose T2M-X, a two-stage method that learns expressive text-to-motion generation from partially annotated data. T2M-X 
+trains three separate Vector Quantized Variational AutoEncoders (VQ-VAEs) for body, hand and face on respective high 
+quality data sources to ensure high quality motion outputs, and a Multi-indexing Generative Pretrained Transformer (GPT) 
+model with motion consistency loss for motion generation and coordination among different body parts. Our results show 
+significant improvements over the baselines both quantitatively and qualitatively, demonstrating its robustness against 
+the dataset limitations.
+
+<p float="left" align="center">
+<img src="{{ site.baseurl }}/files/t2m_x_expressive.png" width="500" /> 
+<figcaption align="center">
+Difference between text to motion generation and text to expressive whole-body motion generation.
+</figcaption>
+</p>
+
+<p float="left" align="center">
+<img src="{{ site.baseurl }}/files/t2m_x_network.png" width="700" /> 
+<figcaption align="center">
+The architecture of VQ-VAE experts for body, hand, and face motion token generation, multi-indexing GPT for coordination, 
+and the joint space for consistency learning.
+</figcaption>
+</p>
+
 ## Text-guided music to dance generation [[demo]](https://drive.google.com/drive/folders/1R9BbFKLR2VZ2f5bEbwbHGalvwlns7sKR?usp=share_link)
 <b> 2022 Summer Intern at Alexa AI </b>
 
@@ -51,8 +81,6 @@ check the demo here.
 <img src="{{ site.baseurl }}/files/hand_gesture_recognition_table.png" width="500" />
 </p>
 
-
-
 ## Indoor Activity Recognition with mmWave Radar Sensor for Aging in Place [[project homepage]](https://smarthomelab.github.io/Indoor-Activity-Recognition-with-mmWave-Radar-Sensor-Page/) [[demo]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing) [[presentation]](https://youtu.be/om-5EhamHw8) [[code]](https://github.com/SmartHomeLab/Indoor-Activity-Recognition-with-mmWave-Radar-Sensor-Static)
 <b> Computer Science master thesis </b>
 
@@ -83,7 +111,7 @@ monitoring for elderly people and reduce labour for caregivers.
 <img src="{{ site.baseurl }}/files/indoor_activities_recognition_2.png" width="500" />
 </p>
 
-## Intelligent Antenna Design using Generative Adversarial Network [[code]](https://drive.google.com/file/d/1lqY2VUE8lh5t8FvmbUYUHSbuY_utCTl-/view?usp=sharing)
+## Intelligent Antenna Design using Generative Adversarial Network [[code]](https://github.com/mingdianliu/AntennaGAN)
 
 
 Featured by low conduction loss and high radiation efficiency, dielectric resonator antennas (DRA) have been considered 

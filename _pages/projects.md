@@ -37,7 +37,7 @@ and the joint space for consistency learning.
 </figcaption>
 </p>
 
-## Text-guided music to dance generation [[demo]](https://drive.google.com/drive/folders/1R9BbFKLR2VZ2f5bEbwbHGalvwlns7sKR?usp=share_link)
+## Text-guided music to dance generation [[demo]](https://drive.google.com/drive/folders/1R9BbFKLR2VZ2f5bEbwbHGalvwlns7sKR?usp=share_link)[[slides]](https://drive.google.com/file/d/1z7Vhz0aXEqYgoT9cG15GUxZlCZpbX7k0/view)
 <b> 2022 Summer Intern at Alexa AI </b>
 
 Generating 3D dances from music is an emerging research topic that can enable delightful use cases such as dance trainer, 
@@ -65,7 +65,7 @@ Visualization of the generated dance conditioned on music input and text guidanc
 </figcaption>
 </p>
 
-## Smart watch-based hand gesture reognition model for AR glasses <b><span style="color:red">[[demo]](https://drive.google.com/drive/folders/1UklKZVgKYQrnBLPTODIE5EwHpESQsKLT?usp=share_link)</span></b>
+## Smart watch-based hand gesture reognition model for AR glasses <b><span style="color:red">[[demo]](https://drive.google.com/drive/folders/1UklKZVgKYQrnBLPTODIE5EwHpESQsKLT?usp=share_link)[[patent]](https://patents.google.com/patent/WO2022221781A1/en?oq=WO2022221781A1)</span></b>
 <b> 2021 Summer Intern at OPPO US Research Center </b>
 
 Augumented reality (AR) glasses are the promising commerical products as the enterance to Metaverse. However, the common 
@@ -111,7 +111,7 @@ monitoring for elderly people and reduce labour for caregivers.
 <img src="{{ site.baseurl }}/files/indoor_activities_recognition_2.png" width="500" />
 </p>
 
-## Intelligent Antenna Design using Generative Adversarial Network [[code]](https://github.com/mingdianliu/AntennaGAN)
+## Intelligent Antenna Design using Generative Adversarial Network [[paper]](https://onlinelibrary.wiley.com/doi/full/10.1002/mop.34013)
 
 
 Featured by low conduction loss and high radiation efficiency, dielectric resonator antennas (DRA) have been considered 

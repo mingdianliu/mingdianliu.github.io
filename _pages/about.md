@@ -15,5 +15,3 @@ His Ph.D. research focus on the application of AI for Science and Engineering, s
 He has two internship experiences at Snap Research, Amazon, and OPPO US Research Center where he developed deep learning models for applications in Generative Models, Multimodal Learning, and Pose Estimation.
 
 He is looking forward to any out-of-school collaborations in 3D vision, especially in Generative Models, Multimodal Learning and Neural Radiance Fields (NeRF).
-
-test

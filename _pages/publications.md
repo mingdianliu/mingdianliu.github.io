@@ -7,6 +7,14 @@ author_profile: true
 
 <br>
 
+<b>[MindDial: Enhancing Conversational Agents with Theory-of-Mind for Common Ground Alignment and Negotiation](https://aclanthology.org/2024.sigdial-1.63/)</b><br>
+Shuwen Qiu, <b>Mingdian Liu</b>, Hengli Li, Song-Chun Zhu, Zilong Zheng
+<i>Proceedings of the 25th Annual Meeting of the Special Interest Group on Discourse and Dialogue</i>.
+
+<b>[Using generative model for intelligent design of dielectric resonator antennas](https://onlinelibrary.wiley.com/doi/full/10.1002/mop.34013)</b><br>
+<b>Mingdian Liu</b>, Hui Zhang, Jiming Song, Meng Lu
+<i>Microwave and Optical Technology Letters</i>.
+
 <b>[A portable system for isothermal amplification and detection of exosomal microRNAs](https://www.sciencedirect.com/science/article/abs/pii/S0956566321007442)</b><br>
 Jingjing Qian, Qinming Zhang, <b>Mingdian Liu</b>, Yixuan Wang, Meng Lu
 <i>Biosensors and Bioelectronics</i>.

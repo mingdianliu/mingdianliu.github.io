@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Mingdian Liu"
   avatar           : "profile2.jpg"
-  bio              : "Ph.D. student at Iowa State University."
-  location         : "Iowa, USA"
+  bio              : "Research Scientist at Cutlabs.ai"
+  location         : "Sunnyvale, California USA"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=I0_tNbsAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=I0_tNbsAAAAJ&view_op=list_works&sortby=pubdate"
   email            : "lmdvigor@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :

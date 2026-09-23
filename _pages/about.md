@@ -20,7 +20,7 @@ My academic work at **Iowa State University** spans electrical engineering and c
 
 I also build open-source tools and interactive experiments that make simulation and model behavior easier to explore. My recent projects include a local electromagnetic solver and two fly-connectome simulations.
 
-[Experience & education]({{ '/cv/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [LinkedIn](https://www.linkedin.com/in/mingdian-liu-205804110/) · [GitHub](https://github.com/mingdianliu)
+[Publications]({{ '/publications/' | relative_url }}) · [LinkedIn](https://www.linkedin.com/in/mingdian-liu-205804110/) · [GitHub](https://github.com/mingdianliu)
 
 </div>
 

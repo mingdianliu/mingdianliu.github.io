@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="450" viewBox="0 0 720 450" role="img" aria-labelledby="title desc">
+  <title id="title">OpenEM</title>
+  <desc id="desc">An illustrative wave over a grid, representing local electromagnetic simulation. This is a project graphic, not simulation output.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#294451" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="720" height="450" fill="#101f2b"/>
+  <rect x="32" y="136" width="656" height="238" fill="url(#grid)"/>
+  <text x="42" y="62" font-family="Arial, sans-serif" font-size="18" letter-spacing="3" fill="#9bbec9">LOCAL ELECTROMAGNETIC SIMULATION</text>
+  <text x="40" y="132" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#edf7f8">OpenEM</text>
+  <path d="M32 257C78 257 78 182 124 182S170 332 216 332S262 182 308 182S354 332 400 332S446 182 492 182S538 332 584 332S630 257 688 257" fill="none" stroke="#83d5d0" stroke-width="4"/>
+  <path d="M32 279C78 279 78 230 124 230S170 328 216 328S262 230 308 230S354 328 400 328S446 230 492 230S538 328 584 328S630 279 688 279" fill="none" stroke="#efb57c" stroke-width="3" opacity="0.8"/>
+  <text x="42" y="413" font-family="Arial, sans-serif" font-size="18" fill="#b2c6ce">CUDA FDTD</text>
+  <text x="678" y="413" text-anchor="end" font-family="Arial, sans-serif" font-size="18" fill="#b2c6ce">Tidy3D input · Local GPU</text>
+</svg>

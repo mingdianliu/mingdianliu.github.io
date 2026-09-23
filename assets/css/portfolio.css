@@ -1,0 +1,117 @@
+/* Additive styles for the personal homepage and project portfolio. */
+.portfolio-intro {
+  max-width: 74ch;
+  line-height: 1.75;
+}
+
+.portfolio-intro > p:first-child {
+  font-size: 1.12em;
+  color: #283842;
+}
+
+.portfolio-section {
+  margin-top: 2.6rem;
+}
+
+.portfolio-section > h2 {
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #dde5e8;
+  font-size: 1.3em;
+}
+
+.portfolio-section__intro {
+  max-width: 70ch;
+  color: #596971;
+  font-size: 0.9em;
+}
+
+.recent-projects {
+  margin-top: 1.4rem;
+}
+
+.project-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.3fr);
+  align-items: start;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e5ebed;
+  scroll-margin-top: 1.5rem;
+}
+
+.project-feature:first-child { padding-top: 0; }
+.project-feature:last-child { border-bottom: 0; }
+
+.project-feature__image {
+  display: block;
+  overflow: hidden;
+  border-radius: 7px;
+  background: #0b1921;
+}
+
+.project-feature__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 8 / 5;
+  object-fit: contain;
+}
+
+.project-feature__body { min-width: 0; }
+.project-feature__body > p { margin: 0 0 0.7rem; font-size: 0.85em; line-height: 1.65; }
+.project-feature__body > .project-feature__eyebrow {
+  color: #55676e;
+  font-size: 0.62em;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+.project-feature__eyebrow span { margin: 0 0.35em; color: #7c8b91; }
+.project-feature h3 { margin: 0 0 0.65rem; line-height: 1.2; font-size: 1.22em; }
+.project-feature h3 a { color: #1b3545; text-decoration: none; }
+.project-feature h3 a:hover { text-decoration: underline; }
+.project-feature__body > .project-feature__note { color: #596971; font-size: 0.73em; }
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.7rem 0 0;
+  font-size: 0.75em;
+  font-weight: 600;
+}
+.project-links li { margin: 0; }
+.project-links a { display: inline-block; padding: 0.35rem 0; }
+.portfolio-section a, .portfolio-intro a, .research-project a { color: #17658a; }
+.portfolio-section a:focus-visible, .portfolio-intro a:focus-visible, .research-project a:focus-visible {
+  outline: 3px solid #17658a;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.research-project { padding: 1.2rem 0 1.8rem; border-bottom: 1px solid #e5ebed; scroll-margin-top: 1rem; }
+.research-project h3 { font-size: 1.1em; line-height: 1.45; margin: 0 0 0.5rem; }
+.research-project__meta { color: #596971; font-size: 0.75em; margin-bottom: 1rem; }
+.research-project > p { max-width: 76ch; font-size: 0.87em; line-height: 1.7; }
+.research-project summary { color: #17658a; cursor: pointer; font-size: 0.8em; padding: 0.8rem 0; }
+.research-project figure { margin: 1.3rem 0; text-align: center; }
+.research-project figure img { max-width: 100%; height: auto; }
+.research-project figcaption { max-width: 72ch; margin: 0.65rem auto 0; color: #596971; font-size: 0.75em; }
+
+@media (max-width: 640px) {
+  .project-feature { grid-template-columns: minmax(0, 1fr); gap: 1rem; padding: 1.6rem 0; }
+  .project-feature__body > p { font-size: 0.95em; }
+  .project-feature__body > .project-feature__note { font-size: 0.83em; }
+  .project-feature__body > .project-feature__eyebrow { font-size: 0.7em; }
+  .project-links { font-size: 0.85em; gap: 0.2rem 1.1rem; }
+  .project-links a { padding: 0.65rem 0; }
+  .portfolio-intro > p:first-child { font-size: 1.05em; }
+}
+
+@media print {
+  .project-feature { break-inside: avoid; }
+  .project-feature__image { max-width: 250px; }
+}

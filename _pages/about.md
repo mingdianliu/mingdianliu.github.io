@@ -1,16 +1,32 @@
 ---
+layout: archive
 permalink: /
 title: "About me"
 author_profile: true
+portfolio: true
+excerpt: "Mingdian Liu is a Senior Machine Learning Engineer at XPENG, working on vision-language models, post-training, and scalable machine learning."
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-**Mingdian Liu** is a Research Scientist at [Cutlabs.ai](http://cutlabs.ai/), where he is developing an advanced AI tool for automatic video clipping. To learn more, visit the [Cutlabs.ai](http://cutlabs.ai/) website or view his [resume](https://mingdianliu.github.io/cv/).
+<div class="portfolio-intro" markdown="1">
 
-Before joining Cutlabs.ai, he is a Ph.D. candidate in Electrical Engineering at Iowa State University, along with a Master’s degree in Computer Science with a minor in Statistics. He is also affiliated with [Dependable Data Driven Discovery (D4) Institute](https://tads.research.iastate.edu/people/mingdian-liu) and [Center for Nondestructive Evaluation (CNDE)](https://www.cnde.iastate.edu/mingdian-liu/) at ISU.
+I'm **Mingdian Liu**, a **Senior Machine Learning Engineer at XPENG**, based in Sunnyvale, California. I work on vision-language models, post-training and alignment, efficient modeling, and scalable training.
 
-His academic research focused on applying AI to Science and Engineering problems, such as computational electromagnetics and CT reconstruction. He has completed internships at Snap Research, Amazon Alexa AI, and OPPO US Research Center, where he developed deep learning models for generative models and multimodal learning applications.
+Previously, I was a Founding Research Scientist at Cutlabs.ai, building video search and highlight generation systems. My research internships at Snap Research, Amazon Alexa AI, and OPPO explored generative motion models and multimodal sensing.
 
-He is open to collaborative projects, particularly in 3D vision, generative models, and multimodal learning.
+My academic work at **Iowa State University** spans electrical engineering and computer science, including AI for computational electromagnetics and CT reconstruction. I earned an M.S. in Computer Science with a minor in Statistics in 2022, and my doctoral studies are in Electrical Engineering.
+
+I also build open-source tools and interactive experiments that make simulation and model behavior easier to explore. My recent projects include a local electromagnetic solver and two fly-connectome simulations.
+
+[Experience & education]({{ '/cv/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [LinkedIn](https://www.linkedin.com/in/mingdian-liu-205804110/) · [GitHub](https://github.com/mingdianliu)
+
+</div>
+
+<section class="portfolio-section" aria-labelledby="recent-projects-heading">
+  <h2 id="recent-projects-heading">Recent open-source projects</h2>
+  <p class="portfolio-section__intro">Scientific computing, neural simulation, and interactive 3D experiments. Explore the code, demos, and model details.</p>
+  {% include recent-projects.html %}
+  <p><a href="{{ '/projects/' | relative_url }}#research">Explore earlier research projects →</a></p>
+</section>

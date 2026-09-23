@@ -37,5 +37,4 @@ Jingjing Qian, Qinming Zhang, <b>Mingdian Liu</b>, Yixuan Wang, Meng Lu
 
 <b>[Titanium mesh based fully flexible highly efficient quantum dots sensitized solar cells](https://pubs.rsc.org/en/content/articlelanding/2017/ta/c7ta00821j/unauth)</b><br>
 Zhonglin Du‡, <b>Mingdian Liu‡</b>, Yan Li, Yanxue Chen and  Xinhua Zhong
-<i>Biosensors and Bioelectronics</i>.
-
+<i>Journal of Materials Chemistry A</i>, 2017, 5, 5577–5584.

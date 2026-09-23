@@ -1,0 +1,47 @@
+- id: flybrain-drive
+  title: Flybrain Drive
+  category: Interactive simulation
+  year: 2026
+  image: /images/projects/flybrain-drive.jpg
+  image_alt: A simulated fruit fly driving through a city alongside a live 3D view of neural activity.
+  description: A real-time 3D driving experiment coupling a fruit-fly connectome subgraph to simplified spiking neurons, interactive traffic, and live neural activity.
+  note: Engineered sensing and control; the model has not been trained to drive.
+  links:
+    - label: Code & setup
+      url: https://github.com/mingdianliu/flybrain-drive
+    - label: Watch demo
+      url: https://github.com/mingdianliu/flybrain-drive/releases/download/v0.1.0/flybrain-drive-showcase-1080p.mp4
+    - label: How it works
+      url: https://github.com/mingdianliu/flybrain-drive/blob/main/docs/driving-guide.en.md
+
+- id: flybrain-playground
+  title: Flybrain Playground
+  category: Connectome exploration
+  year: 2026
+  image: /images/projects/flybrain-playground.png
+  image_alt: A virtual fly responding to food in a room, with simulated neural activity shown beside it.
+  description: An interactive MaleCNS connectome playground with 166,606 classified neurons. Move light, food, and sound sources to explore sensory responses and a virtual fly's motion.
+  note: Simplified LIF neurons and engineered flight control; not a validated model of fly behavior.
+  links:
+    - label: Try live demo
+      url: https://flybrain-theater.ming1001.chatgpt.site/en.html
+    - label: Code & setup
+      url: https://github.com/mingdianliu/flybrain-playground
+    - label: Model & limitations
+      url: https://github.com/mingdianliu/flybrain-playground/blob/main/docs/MODEL.md
+
+- id: openem
+  title: OpenEM
+  category: Scientific computing
+  year: 2026
+  image: /images/projects/openem.svg
+  image_alt: OpenEM project graphic with an illustrative wave and simulation grid.
+  description: A CUDA FDTD solver that runs Tidy3D Simulation objects on a local NVIDIA GPU, built for differential validation against the reference solver.
+  note: Single-GPU, fp32 time stepping; grid and material generation come from the Tidy3D client.
+  links:
+    - label: Code & setup
+      url: https://github.com/mingdianliu/OpenEM
+    - label: Validation
+      url: https://github.com/mingdianliu/OpenEM/blob/main/docs/validation.md
+    - label: Performance
+      url: https://github.com/mingdianliu/OpenEM/blob/main/docs/performance.md

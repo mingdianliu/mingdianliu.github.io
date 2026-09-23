@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mingdian's website"
 title_separator          : "-"
 name                     : &name "Mingdian Liu"
-description              : &description "personal description"
+description              : &description "Mingdian Liu — Senior Machine Learning Engineer at XPENG. Vision-language models, post-training, scientific computing, and open-source simulation."
 url                      : https://mingdianliu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mingdianliu/mingdianliu.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Mingdian Liu"
   avatar           : "profile2.jpg"
-  bio              : "Research Scientist at Cutlabs.ai"
+  bio              : "Senior Machine Learning Engineer at XPENG"
   location         : "Sunnyvale, California USA"
   employer         :
   pubmed           : 

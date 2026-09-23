@@ -1,0 +1,18 @@
+<ol class="publication-list">
+  {% for publication in include.publications %}
+  <li class="publication" id="{{ publication.id }}">
+    <p class="publication__meta"><span>{{ publication.year }}</span> · {{ publication.type | escape }}</p>
+    <h3><a href="{{ publication.url | escape }}">{{ publication.title | escape }}</a></h3>
+    <div class="publication__authors">{{ publication.authors | markdownify }}</div>
+    <p class="publication__venue">{{ publication.venue | escape }}</p>
+    {% if publication.note %}<p class="publication__note">{{ publication.note | escape }}</p>{% endif %}
+    {% if publication.links %}
+    <ul class="project-links" aria-label="Resources for {{ publication.title | escape }}">
+      {% for link in publication.links %}
+      <li><a href="{{ link.url | escape }}">{{ link.label | escape }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ol>

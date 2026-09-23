@@ -1,4 +1,4 @@
-/* Additive styles for the personal homepage and project portfolio. */
+/* Additive styles for the personal homepage, projects, and publications. */
 .portfolio-intro {
   max-width: 74ch;
   line-height: 1.75;
@@ -101,6 +101,25 @@
 .research-project figure img { max-width: 100%; height: auto; }
 .research-project figcaption { max-width: 72ch; margin: 0.65rem auto 0; color: #596971; font-size: 0.75em; }
 
+.publication-nav { display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; margin: 1.4rem 0; font-size: 0.78em; font-weight: 600; }
+.publication-nav a { color: #17658a; padding: 0.5rem 0; }
+.publication-nav a:focus-visible { outline: 3px solid #17658a; outline-offset: 4px; }
+.publication-section h2, .publication { scroll-margin-top: 1.5rem; }
+.publication-list { list-style: none; padding: 0; margin: 0; }
+.publication { padding: 1.2rem 0 1.4rem; margin: 0; border-bottom: 1px solid #e5ebed; }
+.publication:last-child { border-bottom: 0; }
+.publication h3 { margin: 0.35rem 0 0.5rem; font-size: 1em; line-height: 1.5; }
+.publication h3 a { color: #1b3545; text-decoration: none; }
+.publication h3 a:hover { text-decoration: underline; }
+.publication__meta { margin: 0; color: #596971; font-size: 0.7em; }
+.publication__meta span { color: #17658a; font-weight: 700; }
+.publication__authors p { margin: 0 0 0.45rem; font-size: 0.8em; line-height: 1.7; }
+.publication__venue { margin: 0; color: #596971; font-size: 0.8em; line-height: 1.6; }
+.publication__note, .publication-updated { color: #596971; font-size: 0.72em; line-height: 1.6; }
+.publication__note { margin: 0.7rem 0 0; }
+.publication-updated { margin-top: 2.5rem; }
+.publication .project-links { margin-top: 0.35rem; }
+
 @media (max-width: 640px) {
   .project-feature { grid-template-columns: minmax(0, 1fr); gap: 1rem; padding: 1.6rem 0; }
   .project-feature__body > p { font-size: 0.95em; }
@@ -112,6 +131,7 @@
 }
 
 @media print {
+  .publication { break-inside: avoid; }
   .project-feature { break-inside: avoid; }
   .project-feature__image { max-width: 250px; }
 }

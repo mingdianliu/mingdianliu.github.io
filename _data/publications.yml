@@ -1,0 +1,136 @@
+# Reviewed against Google Scholar and publisher records in September 2026.
+# Order each section newest first. Link alternate versions within one entry.
+- id: manuscripts
+  title: Preprints & manuscripts
+  items:
+    - id: x-cache
+      year: 2026
+      type: Technical report
+      title: "X-Cache: Cross-Chunk Block Caching for Few-Step Autoregressive World Models Inference"
+      authors: "Yixiao Zeng, Jianlei Zheng, Chaoda Zheng, Shijia Chen, **Mingdian Liu**, Tongping Liu, Tengwei Luo, Yu Zhang, Boyang Wang, Linkun Xu, Siyuan Lu, Bo Tian, Xianming Liu"
+      venue: "arXiv:2604.20289, 2026"
+      url: https://arxiv.org/abs/2604.20289
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2604.20289
+
+    - id: t2m-x
+      year: 2024
+      type: Preprint
+      title: "T2M-X: Learning Expressive Text-to-Motion Generation from Partially Annotated Data"
+      authors: "**Mingdian Liu**, Yilin Liu, Gurunandan Krishnan, Karl S Bayer, Bing Zhou"
+      venue: "arXiv:2409.13251, 2024"
+      url: https://arxiv.org/abs/2409.13251
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2409.13251
+
+- id: papers
+  title: Journal & conference papers
+  items:
+    - id: minddial
+      year: 2024
+      type: Conference paper
+      title: "MindDial: Enhancing Conversational Agents with Theory-of-Mind for Common Ground Alignment and Negotiation"
+      authors: "Shuwen Qiu, **Mingdian Liu**, Hengli Li, Song-Chun Zhu, Zilong Zheng"
+      venue: "Proceedings of the 25th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL), pp. 746–759, 2024"
+      url: https://aclanthology.org/2024.sigdial-1.63/
+      note: "Earlier preprint: MindDial: Belief Dynamics Tracking with Theory-of-Mind Modeling for Situated Neural Dialogue Generation (2023; revised 2024)."
+      links:
+        - label: ACL Anthology
+          url: https://aclanthology.org/2024.sigdial-1.63/
+        - label: Preprint
+          url: https://arxiv.org/abs/2306.15253
+
+    - id: generative-dra
+      year: 2024
+      type: Journal article
+      title: Using generative model for intelligent design of dielectric resonator antennas
+      authors: "**Mingdian Liu**, Hui Zhang, Jiming Song, Meng Lu"
+      venue: "Microwave and Optical Technology Letters, 66(1), e34013, 2024"
+      url: https://doi.org/10.1002/mop.34013
+
+    - id: exosomal-micrornas
+      year: 2022
+      type: Journal article
+      title: A portable system for isothermal amplification and detection of exosomal microRNAs
+      authors: "Jingjing Qian, Qinming Zhang, **Mingdian Liu**, Yixuan Wang, Meng Lu"
+      venue: "Biosensors and Bioelectronics, 196, 113707, 2022"
+      url: https://doi.org/10.1016/j.bios.2021.113707
+
+    - id: gan-mmwave
+      year: 2021
+      type: Conference paper
+      title: Generative Adversarial Network-based design of dielectric resonator antenna for mmWave 5G applications
+      authors: "**Mingdian Liu**, Hui Zhang, Meng Lu, Jiming Song"
+      venue: "2021 IEEE International Symposium on Antennas and Propagation and USNC-URSI Radio Science Meeting (APS/URSI)"
+      url: https://ieeexplore.ieee.org/document/9704678
+
+    - id: iot-paper-sensor
+      year: 2020
+      type: Journal article
+      title: An IoT-enabled paper sensor platform for real-time analysis of isothermal nucleic acid amplification tests
+      authors: "**Mingdian Liu**, Yuxin Zhao, Hosein Monshat, Zheyuan Tang, Zuowei Wu, Qijing Zhang, Meng Lu"
+      venue: "Biosensors and Bioelectronics, 169, 112651, 2020"
+      url: https://doi.org/10.1016/j.bios.2020.112651
+
+    - id: portable-naat
+      year: 2020
+      type: Conference paper
+      title: Portable instrument for paper-based isothermal nucleic acid amplification tests
+      # Zheyan Tang is the spelling in the Optica publisher record.
+      authors: "**Mingdian Liu**, Zheyan Tang, Hosein Monshat, Yuxin Zhao, Meng Lu"
+      venue: "Conference on Lasers and Electro-Optics (CLEO), paper JTu2F.13, 2020"
+      url: https://doi.org/10.1364/CLEO_AT.2020.JTu2F.13
+
+    - id: paper-dna
+      year: 2019
+      type: Conference paper
+      title: Paper-based isothermal DNA amplification and real-time analysis
+      authors: "**Mingdian Liu**, Hosein Monshat, Yuxin Zhao, Meng Lu"
+      venue: "2019 IEEE SENSORS, pp. 1–4"
+      url: https://ieeexplore.ieee.org/document/8956819
+
+    - id: titanium-mesh-solar
+      year: 2017
+      type: Journal article
+      title: Titanium mesh based fully flexible highly efficient quantum dots sensitized solar cells
+      authors: "Zhonglin Du‡, **Mingdian Liu‡**, Yan Li, Yanxue Chen, Xinhua Zhong"
+      venue: "Journal of Materials Chemistry A, 5(11), pp. 5577–5584, 2017"
+      url: https://doi.org/10.1039/C7TA00821J
+
+    - id: nanosheet-solar
+      year: 2016
+      type: Conference proceedings
+      title: 基于钛网的 ZnO/ZnSe/CdSe 纳米片量子点敏化太阳能电池
+      authors: "**刘明典**, 吴存存, 陈延学"
+      venue: "第三届新型太阳能电池学术研讨会论文集, 2016"
+      url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=I0_tNbsAAAAJ&citation_for_view=I0_tNbsAAAAJ:hqOjcs7Dif8C
+
+- id: patents
+  title: Patents & applications
+  items:
+    - id: smartwatch-ui
+      year: 2026
+      type: U.S. patent
+      title: Finger swipe-based smart watch user interface (UI) control
+      authors: "Xiang Li, **Mingdian Liu**"
+      venue: "US 12,535,887 B2 · January 27, 2026 · Innopeak Technology, Inc."
+      url: https://patentsgazette.uspto.gov/week04/OG/html/1542-4/US12535887-20260127.html
+
+    - id: text-to-motion-patent
+      year: 2025
+      type: Published U.S. patent application
+      title: Generating text-to-motion animations from partially annotated datasets
+      authors: "Karl Bayer, Gurunandan Krishnan Gorumkonda, **Mingdian Liu**, Bing Zhou"
+      venue: "US 2025/0252637 A1 · Application 18/433,000 · August 7, 2025 · Snap Inc."
+      url: https://patents.google.com/patent/US20250252637A1/en
+
+    - id: titanium-solar-patent
+      year: 2017
+      type: Chinese patent application
+      title: The preparation method of flexible quanta sensitization solar battery based on titanium net
+      # Scholar concatenates the remaining inventors. Retain the verified names.
+      authors: "**刘明典**, 陈延学, 杜中林, et al."
+      venue: "Application 201710355831.4 · October 13, 2017 (Google Scholar record)"
+      url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=I0_tNbsAAAAJ&citation_for_view=I0_tNbsAAAAJ:IjCSPb-OGe4C

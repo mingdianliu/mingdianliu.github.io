@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "About me"
+title: "Mingdian Liu's Homepage"
 author_profile: true
 portfolio: true
 excerpt: "Mingdian Liu is a Senior Machine Learning Engineer at XPENG, working on vision-language-action models, post-training, and efficient training, with a background in physics, sensing, and generative modeling."
@@ -10,25 +10,24 @@ redirect_from:
   - /about.html
 ---
 
-<div class="portfolio-intro" markdown="1">
+<div class="portfolio-intro homepage-intro" markdown="1">
 
-I'm **Mingdian Liu**, a **Senior Machine Learning Engineer at XPENG**, based in Sunnyvale, California. I work on vision-language-action models for autonomous driving, with a focus on post-training, reinforcement learning, knowledge distillation, and large-scale training. I am interested in improving model capabilities while making training and deployment more efficient.
+I am a **Senior Machine Learning Engineer at XPENG**, working on vision-language-action models for autonomous driving. Previously, I was a **Founding Research Scientist at Cutlabs.ai**, where I worked on multimodal video search and highlight generation. I also held research internships at **Snap Research**, **Amazon Alexa AI**, and **OPPO**, working on human motion generation and wearable gesture recognition. I pursued graduate research in electrical engineering and computer science at **Iowa State University**, following undergraduate studies in physics at **Shandong University**.
 
-My background spans physics, electrical engineering, and computer science. I studied physics at **Shandong University** and pursued graduate research at **Iowa State University**. My early work on solar-cell materials and portable biosensing systems connected physical measurements with device and system design. This work later expanded into [radar-based activity recognition]({{ '/projects/' | relative_url }}#radar-activity) and [generative antenna design]({{ '/projects/' | relative_url }}#antenna-gan), bringing machine learning into the understanding and design of physical systems.
+My research interests include **multimodal learning**, **human motion generation**, **world models**, and **efficient training and inference**. My current work focuses on post-training, reinforcement learning, and knowledge distillation for vision-language-action models.
 
-Through research internships at **OPPO**, **Amazon Alexa AI**, and **Snap Research**, my focus expanded from recognizing human actions to generating them. At OPPO, I developed wearable gesture recognition for AR interaction. At Amazon, I worked on music-to-dance generation and text-guided motion editing. At Snap, I developed [T2M-X]({{ '/publications/' | relative_url }}#t2m-x), which generates coordinated body, hand, and facial motion from text using partially annotated data.
-
-I also contributed to [MindDial]({{ '/publications/' | relative_url }}#minddial), studying how conversational agents can model one another's beliefs to support common ground alignment and negotiation. As a **Founding Research Scientist at Cutlabs.ai**, I worked on multimodal video search and highlight generation, bringing language and vision models into user-facing products. My recent collaborative research includes [X-Cache]({{ '/publications/' | relative_url }}#x-cache), which accelerates autoregressive world models for interactive driving simulation.
-
-Alongside my research and engineering work, I build open-source tools for electromagnetic simulation and interactive experiments with neural circuits.
-
-[Publications]({{ '/publications/' | relative_url }}) · [LinkedIn](https://www.linkedin.com/in/mingdian-liu-205804110/) · [GitHub](https://github.com/mingdianliu)
+I also enjoy building open-source tools for scientific computing and interactive simulation, including [OpenEM]({{ '/projects/' | relative_url }}#openem), [Flybrain Drive]({{ '/projects/' | relative_url }}#flybrain-drive), and [Flybrain Playground]({{ '/projects/' | relative_url }}#flybrain-playground). Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/mingdian-liu-205804110/).
 
 </div>
 
-<section class="portfolio-section" aria-labelledby="recent-projects-heading">
-  <h2 id="recent-projects-heading">Recent open-source projects</h2>
-  <p class="portfolio-section__intro">Scientific computing, neural simulation, and interactive 3D experiments. Explore the code, demos, and model details.</p>
-  {% include recent-projects.html %}
-  <p><a href="{{ '/projects/' | relative_url }}#research">Explore earlier research projects →</a></p>
+<section class="portfolio-section homepage-news" aria-labelledby="recent-news" markdown="1">
+## Recent News
+{: #recent-news }
+
+- **Apr 2026:** Our technical report [X-Cache]({{ '/publications/' | relative_url }}#x-cache) introduces cross-chunk caching to accelerate autoregressive world models for interactive driving simulation.
+- **Jan 2026:** Our [patent on finger swipe-based smartwatch interaction]({{ '/publications/' | relative_url }}#smartwatch-ui) was granted in the U.S.
+- **Dec 2024:** I joined **XPENG** as a **Senior Machine Learning Engineer**.
+- **Sep 2024:** We released [T2M-X]({{ '/publications/' | relative_url }}#t2m-x), a preprint on expressive text-to-motion generation from partially annotated data.
+- **Sep 2024:** Our paper [MindDial]({{ '/publications/' | relative_url }}#minddial), on theory-of-mind modeling for conversational agents, appeared at **SIGDIAL 2024**.
+
 </section>

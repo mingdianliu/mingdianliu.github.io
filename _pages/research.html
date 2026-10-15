@@ -1,0 +1,36 @@
+---
+layout: null
+permalink: /research/
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex">
+  <title>Fieldnotes · 电磁研究室</title>
+  <style>
+    body {margin:0;min-height:100vh;display:grid;place-items:center;background:#f8f7f3;color:#252b27;font:17px/1.7 system-ui,sans-serif}
+    main {max-width:38rem;padding:2rem}
+    h1 {font-size:2rem;font-weight:600;letter-spacing:-.04em}
+    p {color:#65716a}
+    a {color:#27634d}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Fieldnotes · 电磁研究室</h1>
+    <p>正在进入共同研究空间……首次访问请使用你的专属邀请链接。</p>
+    <a id="entrance" href="https://fieldnotes-room.lmdvigor.workers.dev/">进入研究室</a>
+  </main>
+  <script>
+    const destination = new URL('https://fieldnotes-room.lmdvigor.workers.dev/');
+    const session = new URLSearchParams(location.search).get('session');
+    if (session && /^\d+$/.test(session)) destination.searchParams.set('session', session);
+    destination.hash = location.hash;
+    document.getElementById('entrance').href = destination.href;
+    location.replace(destination.href);
+  </script>
+</body>
+</html>
